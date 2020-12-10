@@ -3,23 +3,21 @@
     --dark-blue: #303b5a;
     --light-blue: #b9d5da;
     --dark: #2c2c41;
-  }
+}
   
-  * {
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
+}
   
-  body {
+body {
     color: var(--dark-blue);
     font-family: Helvetica, Arial, sans-serif;
-  }
+}
   
  
-  
 /* HEADER / NAV BAR STYLES START */
-
 header {
     padding: 5px 0;
     background-color: var(--dark);
@@ -33,58 +31,77 @@ header {
     background-attachment: fixed;
     background-position: 80%;
     z-index: 9999;
-  }
+}
   
-  header h1 {
+header h1 {
     font-weight: bold;
     font-size: 30px;
     color: var(--dark);
     background-color: var(--light-blue);
     width:250px;
     text-align: right;
-  }
+}
 
-  header h1 a {
+header h1 a {
     text-decoration: none;
     color: var(--dark);
-    margin: 5px 10px;
-  }  
+    margin: 5px 10px 5px 5px;
+    padding: 5px;
+ }  
 
-  header nav {
+header nav {
     text-decoration: none;
-    margin: 7px 40px;
-  }
+    margin: 5px 40px 5px 5px;
+}
   
-  header nav ul {
+header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-end;
+    align-content: flex-end;
     list-style: none;
-  }
+}
   
-  header nav ul li a {
+header nav ul li a {
     color: var(--light-blue);
-    padding: 5px 15px;
+    padding: 5px 5px;
     font-weight: lighter;
     font-size: 1.2vw;
-  }
+}
   
-  header nav ul li a:hover {
+header nav ul li a:hover {
     color: var(--light-blue);
-    border-radius: 15px;
-    text-shadow: none;
-  }
-  
-  /* HEADER / NAVBAR STYLES END */
+}
+/* HEADER / NAVBAR STYLES END */
   
   
+/* HERO STYLES START */
+.hero {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  background-image: url('../images/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-position: 100%;
+}
+
+.hero h2 {
+  font-size: 25px;
+  color: var(--dark);
+  background-color: var(--light-blue);
+  margin: 5px 40px 15px 5px;
+  padding: 2px  ;
+}
+/* HERO STYLES END */
   
 
   
   /* STYLE ALL SECTION TAGS */
   section {
-    padding: 60px;
+    padding: 150px 0 0 0;
   }
   
 
