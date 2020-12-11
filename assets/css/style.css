@@ -162,6 +162,13 @@ header nav ul li a:hover {
 .grid-item h3 {
   font-size: 20px;
   background-color: var(--light-blue);
+  z-index: 5;
+}
+
+.grid-item img {
+  flex: 1 ;
+  margin:0;
+  padding:0;
 }
 /* GRID END */
 
