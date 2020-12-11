@@ -123,8 +123,47 @@ header nav ul li a:hover {
 }
 /* CATEGORIES END */
   
-  
-  
+/* GRID BEGIN */
+.grid-wrapper {
+  width: 100%;
+  display: flex;
+  align-content: flex-end;
+  justify-content: flex-start;
+  border-left: 3px solid;
+  padding: 0 0 0 20px;
+  flex-wrap: wrap;
+}
+
+.grid-container {
+  width: 80%;
+  display: grid;
+  /* repeat(iterator, size) */
+  grid-template-columns: repeat(3, 5fr);
+  grid-template-rows: repeat(3, 5fr);
+  color:  var(--dark);
+  font-size: 1.2rem;
+  grid-gap: 10px;
+}
+
+.grid-item {
+  padding: 10px 0;
+  border: 2px solid var(--light-blue);
+  display: flex;
+  align-content: flex-end;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.grid-item:first-child {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.grid-item h3 {
+  font-size: 20px;
+  background-color: var(--light-blue);
+}
+/* GRID END */
 
 
 
