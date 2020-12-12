@@ -16,6 +16,7 @@ Resume is from internat : https://www.google.com/search?q=developer+resume&rlz=1
 
 I did not add a picture of myself as I don't want it to be on this website.
 
+<img src="./assets/images/website.png" alt="malek portfolio" />
 ## Contribution
 Made with ❤️ by Malek Ben Jemia.
 
