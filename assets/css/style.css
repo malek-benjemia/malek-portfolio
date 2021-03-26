@@ -279,7 +279,7 @@ header nav ul li a:hover {
     .grid-item:first-child {
       grid-column: span 1;
       grid-row: span 1;
-      background-image: url(../images/im1.jpg) ;
+      background-image: url(../images/im1.JPG) ;
       background-size: cover;
     }
     .grid-item h3 {
